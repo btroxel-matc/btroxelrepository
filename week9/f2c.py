@@ -10,4 +10,4 @@ def main():
     convert_temp(32)
 
 if __name__ == "__main__":
-    main()
+    print(f"The temperature in Celsius is: {main()}")
