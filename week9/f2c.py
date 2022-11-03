@@ -7,7 +7,7 @@ def convert_temp(degrees_fahrenheit):
     return degrees_celsius
 
 def main():
-    convert_temp(32)
-
+    print(convert_temp(32))
+    
 if __name__ == "__main__":
-    print(f"The temperature in Celsius is: {main()}")
+    main()
