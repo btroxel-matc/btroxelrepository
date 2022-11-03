@@ -11,4 +11,4 @@ myProcList=myProcString.split('\n')
 for line in myProcList:
     print(line)
 
-print(f"{len(myProcList[2::])}")
+print(f"{len(myProcList[1::])}")
