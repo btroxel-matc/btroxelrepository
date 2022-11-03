@@ -4,7 +4,7 @@
 
 def convert_temp(degrees_fahrenheit):
     degrees_celsius = (degrees_fahrenheit - 32) * 5/9
-    print("The temperature is ", degrees_celsius)
+    return degrees_celsius
 
 def main():
     convert_temp(32)

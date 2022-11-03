@@ -5,4 +5,4 @@
 import f2c
 
 x = input("Please enter the temperature in Fahrenheit: ")
-f2c.convert_temp(int(x))
+print(f"The temperature in Celsius is: {f2c.convert_temp(int(x))}")
