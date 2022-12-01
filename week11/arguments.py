@@ -19,7 +19,7 @@ parser.add_argument('-v', '--version', dest='version', action='version', version
 
 args = parser.parse_args()
 
-print(type(args.varinteger))
-print(type(args.varlist))
-print(type(args.varstring))
-print(type(args.varfloat))
+print(type(args.varinteger),args.varinteger)
+print(type(args.varlist),args.varlist)
+print(type(args.varstring),args.varstring)
+print(type(args.varfloat),args.varfloat)
